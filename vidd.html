@@ -8,8 +8,8 @@
 </head>
 <body>
     
-    <div style="width: 100%; height: 100%; background-color: blue;">
-      
+    <div class="bg" style="width: 100%; height: 100%; background-color: blue;">
+      <div class="it">
     <video controls autoplay>
 
     <source src="Instagram.mp4"
@@ -17,12 +17,21 @@
 
     Sorry, your browser doesn't support embedded videos.
 </video>
-          
+        </div>
     </div>
 <style>
     *{
         padding: 0px;
         margin: 0px;
+    }
+    .bg
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .it
+    {
+        flex : 1;
     }
 </style>
 </body>
